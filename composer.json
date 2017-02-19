@@ -18,7 +18,7 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "theahmadzai/immortal-framework": "dev-master@dev"
+        "theahmadzai/immortal-framework": "dev-master"
     },
     "require-dev": {},
     "autoload": {
@@ -27,7 +27,6 @@
         }
     },
     "autoload-dev": {},
-    "minimum-stability": "dev",
     "config": {
         "sort-packages": true
     }
