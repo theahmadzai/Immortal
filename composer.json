@@ -27,6 +27,7 @@
         }
     },
     "autoload-dev": {},
+    "minimum-stability": "dev",
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
