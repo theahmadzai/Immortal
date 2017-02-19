@@ -1,6 +1,6 @@
 {
     "name": "theahmadzai/immortal",
-    "description": "The Immortal Framework Application",
+    "description": "The Immortal Framework Application http://www.codeinvoker.com",
     "type": "project",
     "keywords": ["immortal", "application", "framework"],
     "homepage": "https://github.com/theahmadzai/immortal",
@@ -29,7 +29,6 @@
     "autoload-dev": {},
     "minimum-stability": "dev",
     "config": {
-        "preferred-install": "dist",
         "sort-packages": true
     }
 }
