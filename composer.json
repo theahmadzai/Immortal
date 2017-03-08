@@ -1,9 +1,9 @@
 {
-    "name": "theahmadzai/immortal",
+    "name": "theahmadzai/immortal-application",
     "description": "Immortal-Framework (Application) http://www.codeinvoker.com",
     "type": "project",
-    "keywords": ["immortal", "application", "framework"],
-    "homepage": "https://github.com/theahmadzai/immortal",
+    "keywords": ["immortal", "application"],
+    "homepage": "https://github.com/theahmadzai/immortal-application",
     "license": "MIT",
     "authors": [{
         "name": "Javed Ahmadzai",
@@ -13,8 +13,8 @@
     }],
     "support": {
         "email": "theahmadzai@hotmail.com",
-        "issues": "https://github.com/theahmadzai/immortal/issues",
-        "source": "https://github.com/theahmadzai/immortal"
+        "issues": "https://github.com/theahmadzai/immortal-application/issues",
+        "source": "https://github.com/theahmadzai/immortal-application"
     },
     "require": {
         "php": ">=5.6.0",
@@ -24,7 +24,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app"
         }
     },
     "autoload-dev": {},
