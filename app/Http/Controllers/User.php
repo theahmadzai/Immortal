@@ -1,0 +1,21 @@
+<?php
+namespace App\Http\Controllers;
+
+use App\Http\Models\User as Count;
+use Immortal\View;
+
+class User extends Controller
+{
+    public function index()
+    {
+        return View::make('index.twig', ['welcome']);
+    }
+
+    public function name($name)
+    {
+        $sum = new Count();
+        $sum = $sum->get();
+
+        return View::make('index.twig', [$sum]);
+    }
+}
