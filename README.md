@@ -1,7 +1,7 @@
 # Immortal Application
 
 -----------------------------------
-```
-Under development!
+```bash
+$ composer create-project theahmadzai/immortal-application -s dev
 ```
 -----------------------------------
