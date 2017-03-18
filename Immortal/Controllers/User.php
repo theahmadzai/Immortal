@@ -1,7 +1,7 @@
 <?php
-namespace App\Http\Controllers;
+namespace App\Controllers;
 
-use App\Http\Models\User as Count;
+use App\Models\Math;
 use Immortal\View;
 
 class User extends Controller
@@ -13,8 +13,7 @@ class User extends Controller
 
     public function name($name)
     {
-        $sum = new Count();
-        $sum = $sum->get();
+        $sum = new Math(3, 3);
 
         return View::make('index.twig', [$sum]);
     }

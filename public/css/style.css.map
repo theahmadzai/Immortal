@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.sass"],"names":[],"mappings":"AAAA,IAAI,AAAC,CACD,UAAU,CAAE,OAAO,CACnB,KAAK,CAAE,OAAO,CAAI","file":"style.css","sourcesContent":["body {\n    background: #efefef;\n    color: #222222; }\n"]}

@@ -1,7 +1,5 @@
 <?php
-namespace App\Http\Controllers;
-
-use Immortal\View;
+namespace App\Controllers;
 
 class Users extends Controller
 {
