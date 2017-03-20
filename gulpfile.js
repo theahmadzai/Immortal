@@ -40,8 +40,8 @@ gulp.task('watch', function() {
         './vendor/theahmadzai/immortal-framework/immortal/**/*.php'
     ];
 
-    gulp.watch(files, function(){
-        gulp.src('./public/index.php').pipe(livereload());
+    gulp.watch(files, function(file){
+        livereload.reload(file.path);
     });
 });
 
